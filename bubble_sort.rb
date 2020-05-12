@@ -1,10 +1,10 @@
 def bubble_sort(my_array)
   size = my_array.length
-  size.times do |i|
+  i = 0
+  while i < size-1 do
     j = 0
-
-    while j < size - i do
-        if my_array[j] > my_array[j+1]
+    while j < size - i - 1 do
+        if my_array[j].to_f > my_array[j+1].to_f
             my_array[j], my_array[j+1] = my_array[j+1], my_array[j]
         end
         j += 1
