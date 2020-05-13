@@ -1,11 +1,13 @@
 # Bubble sort
+This is an algorithm to implement the bubble sort in ruby.
 
 ## Description
-This is an algorithm to implement the bubble sort in ruby
+The objective of this exercise is to learn about sorting algorithms by coding a bubble sort algorithm using Ruby.
+We coded two methods to sort arrays with bubble sort algorithm. The first method takes an array as arguments and returns a sorted array. The seconde one sorts an array by accepting a block using the "yeild" keyword.
 
 ## Built With
   - Ruby
-  - Rubocop
+  - Rubocop (linter)
   
 ## Usage
   - git clone https://github.com/oloomoses/bubble-sort.git
