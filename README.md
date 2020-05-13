@@ -3,7 +3,7 @@ This is an algorithm to implement the bubble sort in ruby.
 
 ## Description
 The objective of this exercise is to learn about sorting algorithms by coding a bubble sort algorithm using Ruby.
-We coded two methods to sort arrays with bubble sort algorithm. The first method takes an array as arguments and returns a sorted array. The seconde one sorts an array by accepting a block using the "yeild" keyword.
+We coded two methods to sort arrays with the bubble sort algorithm. The first method takes an array as arguments and returns a sorted array. The second one sorts an array by accepting a block using the "yield" keyword.
 
 ## Built With
   - Ruby
