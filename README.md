@@ -15,6 +15,17 @@ We coded two methods to sort arrays with the bubble sort algorithm. The first me
   - git checkout development
   - ruby bubble_sort.rb
 
+## Test examples
+bubble_sort_by_arr = %w[this ti hello a]
+
+bubble_sort_by(bubble_sort_by_arr) do |left, right|
+  right.length - left.length
+end
+
+bubble_sort_array = [4, 2, 5, 2.7, 1, 6, 0]
+
+puts bubble_sort(bubble_sort_array)
+
 ## Authors
 👩 **Houda Cherkaoui**
 - Twitter: https://twitter.com/Houda59579688

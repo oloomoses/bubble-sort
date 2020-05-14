@@ -12,10 +12,6 @@ def bubble_sort(my_array)
   my_array
 end
 
-bubble_sort_array = [4, 2, 5, 2.7, 1, 6, 0]
-
-p bubble_sort(bubble_sort_array)
-
 def bubble_sort_by(my_array)
   size = my_array.length
   i = 0
@@ -27,11 +23,5 @@ def bubble_sort_by(my_array)
     end
     i += 1
   end
-  p my_array
-end
-
-bubble_sort_by_arr = %w[this ti hello a]
-
-bubble_sort_by(bubble_sort_by_arr) do |left, right|
-  left.length - right.length
+  puts my_array
 end
